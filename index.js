@@ -1,5 +1,5 @@
 
-var toSpace = require('to-space-case');
+var clean = require('to-no-case');
 
 
 /**
@@ -18,7 +18,7 @@ module.exports = toCapitalCase;
 
 
 function toCapitalCase (string) {
-  return toSpace(string).replace(/(^|\s)(\w)/g, function (matches, previous, letter) {
+  return clean(string).replace(/(^|\s)(\w)/g, function (matches, previous, letter) {
     return previous + letter.toUpperCase();
   });
 }

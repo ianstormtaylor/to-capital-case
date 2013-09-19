@@ -6,7 +6,7 @@
   "description": "Convert a non-capital-case string to a capital-case string.",
   "keywords": ["capital", "case", "capitalcase", "string"],
   "dependencies": {
-    "ianstormtaylor/to-space-case": "0.0.1"
+    "ianstormtaylor/to-no-case": "0.0.1"
   },
   "development": {
     "component/assert": "*"
