@@ -11,11 +11,11 @@
 ```js
 var capital = require('to-capital-case');
 
-capital('camelCase');  // "Camel Case"
-capital('space case'); // "Space Case"
-capital('snake_case'); // "Snake Case"
-capital('dot.case');   // "Dot Case"
-capital('weird[case'); // "Weird Case"
+capital('camelCase');       // "Camel Case"
+capital('space case');      // "Space Case"
+capital('snake_case');      // "Snake Case"
+capital('dot.case');        // "Dot Case"
+capital('some*weird[case'); // "Some Weird Case"
 ```
 
 ## API
