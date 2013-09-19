@@ -1,6 +1,6 @@
 # to-capital-case
 
-  Convert a non-capital-case string to a capital-case string.
+  Convert a string to a capital case.
 
 ## Installation
 
