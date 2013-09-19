@@ -3,7 +3,7 @@
   "repo": "ianstormtaylor/to-capital-case",
   "license": "MIT",
   "version": "0.1.0",
-  "description": "Convert a non-capital-case string to a capital-case string.",
+  "description": "Convert a string to a capital case.",
   "keywords": ["capital", "case", "capitalcase", "string"],
   "dependencies": {
     "ianstormtaylor/to-no-case": "0.1.0"
