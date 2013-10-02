@@ -5,6 +5,7 @@
 ## Installation
 
     $ component install ianstormtaylor/to-capital-case
+    $ npm install to-capital-case
 
 ## Example
 

@@ -1,0 +1,11 @@
+{
+  "name": "to-capital-case",
+  "repository": "git://github.com/ianstormtaylor/to-capital-case.git",
+  "license": "MIT",
+  "version": "0.1.1",
+  "description": "Convert a string to capital case.",
+  "keywords": ["capital", "case", "capitalcase", "string"],
+  "dependencies": {
+    "to-no-case": "0.1.1"
+  }
+}
