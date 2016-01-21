@@ -1,13 +1,11 @@
 
-var clean = require('to-no-case');
-
+var space = require('to-space-case')
 
 /**
- * Expose `toCapitalCase`.
+ * Export.
  */
 
-module.exports = toCapitalCase;
-
+module.exports = toCapitalCase
 
 /**
  * Convert a `string` to capital case.
@@ -16,9 +14,8 @@ module.exports = toCapitalCase;
  * @return {String}
  */
 
-
-function toCapitalCase (string) {
-  return clean(string).replace(/(^|\s)(\w)/g, function (matches, previous, letter) {
-    return previous + letter.toUpperCase();
-  });
+function toCapitalCase(string) {
+  return space(string).replace(/(^|\s)(\w)/g, function (matches, previous, letter) {
+    return previous + letter.toUpperCase()
+  })
 }
