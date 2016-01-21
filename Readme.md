@@ -14,13 +14,13 @@ $ npm install to-capital-case
 ## Example
 
 ```js
-var capital = require('to-capital-case');
+var toCapitalCase = require('to-capital-case')
 
-capital('camelCase');       // "Camel Case"
-capital('space case');      // "Space Case"
-capital('snake_case');      // "Snake Case"
-capital('dot.case');        // "Dot Case"
-capital('some*weird[case'); // "Some Weird Case"
+toCapitalCase('camelCase')        // "Camel Case"
+toCapitalCase('space case')       // "Space Case"
+toCapitalCase('snake_case')       // "Snake Case"
+toCapitalCase('dot.case')         // "Dot Case"
+toCapitalCase('some*weird[case')  // "Some Weird Case"
 ```
 
 
